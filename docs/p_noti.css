@@ -1,0 +1,40 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #ceb2b9d1;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+main {
+	padding: 20px;
+}
+
+.notification {
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid rosybrown;
+	border-radius: 5px;
+}
+
+h2 {
+	font-weight: bold;
+	color: #ceb2b9d1;
+	margin-top: 0;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+.timestamp {
+	font-size: 14px;
+	color: #777;
+	margin-top: 20px;
+}
+
