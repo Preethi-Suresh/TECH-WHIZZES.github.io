@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Appointment</title>
+	<link rel="stylesheet" type="text/css" href="Book_appointment.css">
+</head>
+<body>
+	<header>
+		<h1>Book Appointment</h1>
+	</header>
+	<main>
+		<form>
+			<fieldset>
+				<legend>Personal Information</legend>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone" required>
+			</fieldset>
+			<fieldset>
+				<legend>Appointment Details</legend>
+				<label for="doctor">Doctor:</label>
+				<select id="doctor" name="doctor" required>
+					<option value="" disabled selected>Select a doctor</option>
+					<option value="dr-john-doe">Dr. Sundaralingam,Cardiologist</option>
+					<option value="dr-jane-smith">Dr. Mahalingam,Neurologist</option>
+					<option value="dr-david-brown">Dr. Ganeshan,Ortho</option>
+				</select>
+				<label for="date">Date:</label>
+				<input type="date" id="date" name="date" required>
+				<label for="time">Time:</label>
+				<input type="time" id="time" name="time" required>
+			</fieldset>
+			<input type="submit" value="Book Appointment">
+		</form>
+	</main>
+</body>
+</html>
