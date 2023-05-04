@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+    <script>
+        function confirmInput() {
+       
+        alert("Your health is our top priority.<TEAM MED WHIZZ>");
+     }
+     </script>
+	<link rel="stylesheet" type="text/css" href="plogin.css">
+</head>
+<body>
+	<div class="login-box">
+	
+		<form onsubmit=confirmInput() class=form id="patient-form" action="PATIENT.html"  >
+			<h2>PATIENT</h2>
+			<label for="patient-username">Username:</label>
+			<input type="text" id="patient-username" name="username" required><br><br>
+			<label for="patient-password">Password:</label>
+			<input type="password" id="patient-password" name="password" required><br><br>
+			<input type="submit" value="Login">
+
+		</form>
+	</div>
+</body>
+</html>
+
